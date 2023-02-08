@@ -1,0 +1,23 @@
+{
+  "name": "pricing-component-with-toggle-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Pricing component with toggle coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded assets/sass:assets/css",
+    "sass-prod": "sass --no-source-map --style=compressed assets/sass:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carlos-Marte/pricing-component-with-toggle-master.git"
+  },
+  "author": "Carlos-Marte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carlos-Marte/pricing-component-with-toggle-master/issues"
+  },
+  "homepage": "https://github.com/Carlos-Marte/pricing-component-with-toggle-master#readme",
+  "devDependencies": {
+    "sass": "^1.58.0"
+  }
+}

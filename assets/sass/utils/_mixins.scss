@@ -7,3 +7,24 @@
     width: $width;
     height: $height;
 }
+
+@mixin set-bg-color ($background: unset, $color: unset) {
+    background: $background;
+    color: $color;
+}
+
+@mixin set-gc-gr ($grid-column: unset, $grid-row: unset) {
+    grid-column: $grid-column;
+    grid-row: $grid-row;
+}
+
+@mixin separator-bg-op ($background: unset, $opacity: 1) {
+    background: $background;
+    opacity: $opacity;
+}
+
+@mixin btn-hover ($background: unset, $outline: unset, $color: unset) {
+    background: $background;
+    outline: $outline;
+    color: $color;
+}

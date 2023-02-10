@@ -1,8 +1,24 @@
 .button {
-    background: linear-gradient(to right, $gradient-color-1, $gradient-color-2);
+    width: 90%;
+    @include set-mg-pd(1em 0 0, 1em 1.5em);
     border: none;
+    border-radius: 7px;
+    @include set-bg-color(linear-gradient($gradient), $very-light-grayish-blue);
     font-family: inherit;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    cursor: pointer;
+
+    &:hover {
+        @include btn-hover(transparent, 1px solid $grayish-blue, $purple);
+    }
+}
+
+.button--white {
+    @include set-bg-color($very-light-grayish-blue, $purple);
+
+    &:hover {
+        @include btn-hover(transparent, 1px solid $very-light-grayish-blue, $very-light-grayish-blue);
+    }
 }

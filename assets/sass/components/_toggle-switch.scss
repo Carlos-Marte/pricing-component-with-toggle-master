@@ -4,7 +4,7 @@
         @include set-wd-hg(50px, 30px);
         display: inline-block;
         border-radius: 15px;
-        background: linear-gradient(to right, $gradient-color-1, $gradient-color-2);
+        background: linear-gradient($gradient);
         position: relative;
         cursor: pointer;
 
@@ -16,7 +16,7 @@
             border-radius: 50%;
             top: 5px;
             right: 3px;
-            transition: transform .3s ease;
+            transition: transform 0.3s ease;
         }
     }
 

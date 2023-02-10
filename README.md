@@ -6,7 +6,7 @@
 
 :pushpin: Responsive tanto en moviles, tablets y desktop.
 
-:link: <a href="#" target="_blank" title="¡Ir!">Ir a la página</a>
+:link: <a href="https://pricingcomponent-carlosmartedev.netlify.app/" target="_blank" title="¡Ir!">Ir a la página</a>
 
 
 ## :camera: Imágenes

@@ -13,10 +13,10 @@
 
 #### Desktop
 
-![Vista Desktop]( "Desktop")
-![Vista Desktop #2]( "Desktop #2")
+![Vista Desktop](- "Desktop")
+![Vista Desktop #2](- "Desktop #2")
 
 #### Mobile
 
-![Vista Mobile]( "Mobile")
-![Vista Mobile #2]( "Mobile #2")
+![Vista Mobile](- "Mobile")
+![Vista Mobile #2](- "Mobile #2")

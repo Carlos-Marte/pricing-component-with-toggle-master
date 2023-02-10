@@ -1,8 +1,8 @@
 # Princing component
 
-:pushpin: Práctica proveniente de FrontendMentor.  Está realizado usando `<HTML>`, `<CSS>` y `<JS>`.
+:pushpin: Práctica proveniente de FrontendMentor.  Está realizado usando `<HTML>`, `<SASS>` y `<JS>`.
 
-:pushpin: 
+:pushpin: Maquetada con grid y flexbox.
 
 :pushpin: Responsive tanto en moviles, tablets y desktop.
 

@@ -12,7 +12,7 @@
             content: '';
             @include set-wd-hg(20px, 20px);
             position: absolute;
-            background: white;
+            background: $very-light-grayish-blue;
             border-radius: 50%;
             top: 5px;
             right: 3px;

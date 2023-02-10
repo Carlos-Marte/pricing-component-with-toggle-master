@@ -6,6 +6,7 @@
         border-radius: 15px;
         background: linear-gradient($gradient);
         position: relative;
+        transition: opacity 0.1s ease;
         cursor: pointer;
 
         &::after {
@@ -17,6 +18,10 @@
             top: 5px;
             right: 3px;
             transition: transform 0.3s ease;
+        }
+
+        &:hover {
+            opacity: .7;
         }
     }
 

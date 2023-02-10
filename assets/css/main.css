@@ -43,6 +43,7 @@
   border-radius: 15px;
   background: linear-gradient(to right, hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
   position: relative;
+  transition: opacity 0.1s ease;
   cursor: pointer;
 }
 .toggle-switch__switch::after {
@@ -55,6 +56,9 @@
   top: 5px;
   right: 3px;
   transition: transform 0.3s ease;
+}
+.toggle-switch__switch:hover {
+  opacity: 0.7;
 }
 .toggle-switch__checkbox {
   display: none;

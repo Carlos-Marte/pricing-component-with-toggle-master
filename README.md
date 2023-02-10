@@ -13,10 +13,10 @@
 
 #### Desktop
 
-![Vista Desktop](https://i.postimg.cc/mrTKW9wC/nico-ice-desktop.png "Desktop")
-![Vista Desktop #2](https://i.postimg.cc/fySrffzn/nico-ice-desktop2.png "Desktop #2")
+![Vista Desktop]( "Desktop")
+![Vista Desktop #2]( "Desktop #2")
 
 #### Mobile
 
-![Vista Mobile](https://i.postimg.cc/bJB5nBj9/nico-ice-mobile1.png "Mobile")
-![Vista Mobile #2](https://i.postimg.cc/RFF8Nz20/nico-ice-mobile2.png "Mobile #2")
+![Vista Mobile]( "Mobile")
+![Vista Mobile #2]( "Mobile #2")

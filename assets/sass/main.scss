@@ -2,15 +2,16 @@
 @import 'base/reset';
 @import 'base/typography';
 
-// Layout
-// @import 'layout';
-
 // Utils
 @import 'utils/variables';
 @import 'utils/mixins';
 
+// Layout
+// @import 'layout';
+
 // Components
-// @import 'components';
+@import 'components/button';
+@import 'components/toggle-switch';
 
 // Pages
 @import 'pages/pricing';

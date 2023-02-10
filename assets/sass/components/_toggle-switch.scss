@@ -1,0 +1,30 @@
+.toggle-switch {
+    
+    &__switch {
+        @include set-wd-hg(50px, 30px);
+        display: inline-block;
+        border-radius: 15px;
+        background: linear-gradient(to right, $gradient-color-1, $gradient-color-2);
+        position: relative;
+        cursor: pointer;
+
+        &::after {
+            content: '';
+            @include set-wd-hg(20px, 20px);
+            position: absolute;
+            background: white;
+            border-radius: 50%;
+            top: 5px;
+            right: 3px;
+            transition: transform .3s ease;
+        }
+    }
+
+    &__checkbox {
+        display: none;
+
+        &:checked + .toggle-switch__switch::after {
+            transform: translate(-100%, 0);
+        }
+    }
+}

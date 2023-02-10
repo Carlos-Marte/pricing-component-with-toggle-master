@@ -1,0 +1,9 @@
+@mixin set-mg-pd ($margin: 0, $padding: 0){
+    margin: $margin;
+    padding: $padding;
+}
+
+@mixin set-wd-hg ($width: auto, $height: auto) {
+    width: $width;
+    height: $height;
+}

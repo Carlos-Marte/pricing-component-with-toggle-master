@@ -1,0 +1,11 @@
+.separator {
+    display: inline-block;
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+    @include separator-bg-op($light-grayish-blue, 0.5);
+}
+
+.separator--white {
+    @include separator-bg-op($very-light-grayish-blue, 0.5);
+}
